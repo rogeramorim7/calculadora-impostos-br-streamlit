@@ -250,7 +250,7 @@ Contribuições são sempre bem-vindas! Se você tem sugestões para melhorar es
   
   ---
   
-  <sub>Feito com ❤️ por <a href="https://github.com/rogeramorim7">Roger Amorim</a></sub>
+  <sub>Feito por <a href="https://github.com/rogeramorim7">Roger Amorim</a></sub>
   
   <sub>Este projeto representa o ponto final de um esforço que uniu lógica de negócios (fiscal) e desenvolvimento moderno em Python com Streamlit.</sub>
   
