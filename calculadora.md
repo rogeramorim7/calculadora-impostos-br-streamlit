@@ -40,7 +40,7 @@ git clone https://github.com/rogeramorim7/calculadora-impostos-br-streamlit.git
 cd calculadora-impostos-br-streamlit
 
 2. Configurar o Ambiente
-Recomendamos o uso de um ambiente virtual para isolar as dependências do projeto.
+Recomendo o uso de um ambiente virtual para isolar as dependências do projeto.
 
 Bash
 # Cria e ativa o ambiente virtual
