@@ -181,19 +181,19 @@ O aplicativo será aberto automaticamente no seu navegador em: **http://localhos
 ```mermaid
 graph TD
     A[✅ Versão 1.0 - Atual] --> B[⏳ Versão 1.1 - Próxima]
-    B --> C[📋 Versão 2.0 - Futura]
+    B --> C[ Versão 2.0 - Futura]
     
     A --> A1[✅ Simples Nacional]
     A --> A2[✅ Lucro Presumido] 
     A --> A3[✅ Lucro Real]
     
-    B --> B1[📄 Exportação PDF]
-    B --> B2[⚖️ Comparativo de Regimes]
-    B --> B3[🎨 Melhorias na UI]
+    B --> B1[ Exportação PDF]
+    B --> B2[ Comparativo de Regimes]
+    B --> B3[ Melhorias na UI]
     
-    C --> C1[🔌 Integração com APIs]
-    C --> C2[📊 Dashboard Analytics]
-    C --> C3[💾 Histórico de Cálculos]
+    C --> C1[ Integração com APIs]
+    C --> C2[ Dashboard Analytics]
+    C --> C3[ Histórico de Cálculos]
 ```
 
 ---
