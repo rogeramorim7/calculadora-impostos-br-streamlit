@@ -1,6 +1,6 @@
 💰 Calculadora de Impostos ME/EPP (Simples Nacional, Presumido e Real)
 <p align="center">
-<img src="URL_DA_SUA_IMAGEM_DE_DEMONSTRACAO.png" alt="Screenshot da Calculadora de Impostos em Streamlit" width="700">
+<img src="https://github.com/rogeramorim7/calculadora-impostos-br-streamlit/blob/main/assets/github.gif" alt="Screenshot da Calculadora de Impostos em Streamlit" width="700">
 </p>
 
 🚀 Propósito do Projeto
