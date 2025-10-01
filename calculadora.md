@@ -70,8 +70,15 @@ Este projeto não deve ser usado como base para tomada de decisão fiscal ou con
 🤝 Conclusão e Convite:
 Este projeto representa o ponto final de um esforço que uniu lógica de negócios (fiscal) e desenvolvimento moderno em Python com Streamlit.
 
-Se você gostou da iniciativa, sinta-se à vontade para deixar uma estrela (star) no repositório. O feedback, sugestões de melhoria ou oportunidades de colaboração são sempre muito bem-vindos!
+Se você gostou da iniciativa, sinta-se à vontade para deixar uma estrela no repositório. O feedback, sugestões de melhoria ou oportunidades de colaboração são sempre muito bem-vindos!
 
 Fique à vontade para entrar em contato:
-Linkedin https://www.linkedin.com/in/roger-de-amorim-300a14307/
-Instagram https://www.instagram.com/rogerdeamorim_/
+<p align="center">
+  <a href="https://www.instagram.com/rogerdeamorim_/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/rogeramorim7" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
