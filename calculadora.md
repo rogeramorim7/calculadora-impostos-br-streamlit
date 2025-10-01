@@ -1,84 +1,257 @@
-💰 Calculadora de Impostos ME/EPP (Simples Nacional, Presumido e Real)
+<div align="center">
+
+# 💰 Calculadora de Impostos ME/EPP
+
+### 🇧🇷 Simples Nacional, Presumido e Real
+
+<p>
+  <a href="#-sobre-o-projeto">Sobre</a> •
+  <a href="#-funcionalidades">Funcionalidades</a> •
+  <a href="#-tecnologias">Tecnologias</a> •
+  <a href="#️-como-executar">Como Executar</a> •
+  <a href="#-contato">Contato</a>
+</p>
+
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Status](https://img.shields.io/badge/Status-✅%20Finalizado-28a745?style=for-the-badge)
+![Licença](https://img.shields.io/badge/Licença-MIT-blue?style=for-the-badge)
+
+</div>
+
+---
+
+## 📱 Demonstração da Aplicação
+
 <p align="center">
 <img src="https://github.com/rogeramorim7/calculadora-impostos-br-streamlit/blob/main/assets/github.gif" alt="Screenshot da Calculadora de Impostos em Streamlit" width="700">
 </p>
 
-🚀 Propósito do Projeto:
-Este projeto é uma Calculadora de Impostos interativa desenvolvida em Python com Streamlit, destinada a simular de forma simplificada a carga tributária em três dos principais regimes fiscais brasileiros: Simples Nacional, Lucro Presumido e Lucro Real.
+<h4 align="center">
+  🚀 Aplicação Finalizada ✅
+</h4>
 
-Seu principal objetivo é servir como peça de portfólio, demonstrando proficiência em:
+---
 
-Desenvolvimento Web Rápido: Utilizando o Streamlit para criar uma interface de usuário funcional.
+## 🚀 Sobre o Projeto
 
-Modularização e Boas Práticas Python: Uso de funções, tipagem de dados (type hinting) e separação clara da lógica (calculadora_impostos.py) da interface (app.py).
+Este projeto é uma **Calculadora de Impostos interativa** desenvolvida em Python com Streamlit, destinada a simular de forma simplificada a carga tributária em três dos principais regimes fiscais brasileiros: **Simples Nacional**, **Lucro Presumido** e **Lucro Real**.
 
-Modelagem de Lógica de Negócio (Fiscal): Codificando as regras simplificadas de cálculo baseadas nas legislações vigentes.
+### 🎯 Objetivo Principal
+Servir como peça de **portfólio profissional**, demonstrando proficiência em:
 
-✨ Funcionalidades
-O aplicativo permite ao usuário selecionar o regime e inserir dados específicos para obter uma estimativa de imposto:
+- **🌐 Desenvolvimento Web Rápido**: Utilizando o Streamlit para criar uma interface de usuário funcional
+- **🐍 Modularização e Boas Práticas Python**: Uso de funções, tipagem de dados (type hinting) e separação clara da lógica (`calculadora_impostos.py`) da interface (`app.py`)
+- **📊 Modelagem de Lógica de Negócio (Fiscal)**: Codificando as regras simplificadas de cálculo baseadas nas legislações vigentes
 
-Regime Selecionado	Base de Cálculo	Saída Estimada
-Simples Nacional	Faturamento Anual	Imposto Mensal
-Lucro Presumido	Faturamento Trimestral e Tipo de Atividade	Imposto Trimestral
-Lucro Real	Receita Total e Despesas Dedutíveis	Imposto Total
+---
 
-🛠️ Tecnologias Utilizadas
-Ferramenta	Descrição
-Python	Linguagem principal de back-end e desenvolvimento.
-Streamlit	Framework de desenvolvimento front-end para Python.
-Git & GitHub	Controle de versão e hospedagem do repositório.
+## ✨ Funcionalidades
 
-⚙️ Como Executar o Projeto Localmente
-Pré-requisitos
-Certifique-se de ter o Python 3.8+ instalado em sua máquina.
+- [x] 🏢 **Cálculo Simples Nacional**
+  - Faixas de faturamento automáticas
+  - Cálculo baseado no faturamento anual
+  - Resultado: Imposto mensal estimado
 
-1. Clonar o Repositório
+- [x] 📊 **Cálculo Lucro Presumido** 
+  - Diferentes tipos de atividade
+  - Base: Faturamento trimestral
+  - Resultado: Imposto trimestral estimado
 
-Bash
-# Substitua rogeramorim7 pelo seu nome de usuário e o nome do repositório, se for diferente
+- [x] 📈 **Cálculo Lucro Real**
+  - Receitas totais e despesas dedutíveis
+  - Cálculo do lucro real apurado
+  - Resultado: Imposto total estimado
+
+- [x] 🎯 **Interface Intuitiva**
+  - Design responsivo e moderno
+  - Validação em tempo real
+  - Resultados instantâneos
+
+### 📊 Resumo dos Regimes Tributários
+
+| Regime Fiscal | Base de Cálculo | Saída Estimada | Status |
+|:---:|:---:|:---:|:---:|
+| 🏢 **Simples Nacional** | Faturamento Anual | Imposto Mensal | ✅ Implementado |
+| 📊 **Lucro Presumido** | Faturamento Trimestral + Tipo de Atividade | Imposto Trimestral | ✅ Implementado |
+| 📈 **Lucro Real** | Receita Total + Despesas Dedutíveis | Imposto Total | ✅ Implementado |
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+<table>
+  <tr>
+    <td><strong>Tecnologia</strong></td>
+    <td><strong>Badge</strong></td>
+    <td><strong>Descrição</strong></td>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
+    <td>Linguagem principal de desenvolvimento</td>
+  </tr>
+  <tr>
+    <td>Streamlit</td>
+    <td><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"></td>
+    <td>Framework para interface web responsiva</td>
+  </tr>
+  <tr>
+    <td>Git & GitHub</td>
+    <td><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></td>
+    <td>Controle de versão e hospedagem do repositório</td>
+  </tr>
+</table>
+
+---
+
+## ⚙️ Como Executar o Projeto Localmente
+
+### 📋 Pré-requisitos
+
+Certifique-se de ter o **Python 3.8+** instalado em sua máquina.
+
+### 🔧 Passo a Passo
+
+#### 1. 📥 Clonar o Repositório
+
+```bash
+# Clone este repositório
 git clone https://github.com/rogeramorim7/calculadora-impostos-br-streamlit.git
+
+# Acesse a pasta do projeto
 cd calculadora-impostos-br-streamlit
+```
 
-2. Configurar o Ambiente
-Recomendo o uso de um ambiente virtual para isolar as dependências do projeto.
+#### 2. 🐍 Configurar o Ambiente Virtual
 
-Bash
-# Cria e ativa o ambiente virtual
+```bash
+# Crie o ambiente virtual
 python -m venv venv
-source venv/bin/activate  # Linux/macOS
-# ou
-.\venv\Scripts\activate   # Windows
 
-3. Instalar as Dependências
-O projeto utiliza apenas a biblioteca streamlit. Você pode instalar usando o requirements.txt (que deve ter sido criado):
+# Ative o ambiente virtual
+# Linux/macOS:
+source venv/bin/activate
 
-Bash
+# Windows:
+.\venv\Scripts\activate
+```
+
+#### 3. 📦 Instalar as Dependências
+
+```bash
+# Instale as dependências
 pip install -r requirements.txt
+```
 
-4. Rodar o Aplicativo
-Execute o arquivo principal com o Streamlit:
-Bash
+#### 4. 🚀 Executar a Aplicação
+
+```bash
+# Execute o aplicativo
 streamlit run app.py
+```
 
-O aplicativo será aberto automaticamente no seu navegador padrão, no endereço: http://localhost:8501.
+O aplicativo será aberto automaticamente no seu navegador em: **http://localhost:8501**
 
-⚠️ Isenção de Responsabilidade (Disclaimer):
-Os cálculos neste projeto são simulações simplificadas e didáticas, criadas exclusivamente para fins de demonstração de portfólio.
-Eles não consideram o Fator R (Simples Nacional), adicional de IRPJ, diferenças estaduais (ICMS) ou municipais (ISS), e outras particularidades fiscais.
-Este projeto não deve ser usado como base para tomada de decisão fiscal ou contábil real. Consulte sempre um contador profissional para cálculos precisos.
+---
 
-🤝 Conclusão e Convite:
-Este projeto representa o ponto final de um esforço que uniu lógica de negócios (fiscal) e desenvolvimento moderno em Python com Streamlit.
+## 🛡️ Isenção de Responsabilidade
 
-Se você gostou da iniciativa, sinta-se à vontade para deixar uma estrela no repositório. O feedback, sugestões de melhoria ou oportunidades de colaboração são sempre muito bem-vindos!
+<div align="center">
 
-Fique à vontade para entrar em contato:
-<p align="center">
-  <a href="https://www.instagram.com/rogerdeamorim_/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+> ### ⚠️ **Importante**: Disclaimer Legal
+> 
+> Este projeto foi desenvolvido exclusivamente para **fins educacionais e de portfólio**.  
+> Os cálculos são **simplificações didáticas** e **não substituem** consulta profissional.
+> 
+> **Limitações dos Cálculos:**
+> - ❌ Não considera o Fator R (Simples Nacional)
+> - ❌ Não inclui adicional de IRPJ
+> - ❌ Não contempla diferenças estaduais (ICMS) ou municipais (ISS)
+> - ❌ Não aborda outras particularidades fiscais específicas
+> 
+> 👨‍💼 **Consulte sempre um contador certificado** para decisões fiscais reais.
+
+</div>
+
+---
+
+## 🗺️ Roadmap do Projeto
+
+```mermaid
+graph TD
+    A[✅ Versão 1.0 - Atual] --> B[⏳ Versão 1.1 - Próxima]
+    B --> C[📋 Versão 2.0 - Futura]
+    
+    A --> A1[✅ Simples Nacional]
+    A --> A2[✅ Lucro Presumido] 
+    A --> A3[✅ Lucro Real]
+    
+    B --> B1[📄 Exportação PDF]
+    B --> B2[⚖️ Comparativo de Regimes]
+    B --> B3[🎨 Melhorias na UI]
+    
+    C --> C1[🔌 Integração com APIs]
+    C --> C2[📊 Dashboard Analytics]
+    C --> C3[💾 Histórico de Cálculos]
+```
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são sempre bem-vindas! Se você tem sugestões para melhorar este projeto:
+
+1. 🍴 Faça um **Fork** do projeto
+2. 🌟 Crie uma **Branch** para sua feature (`git checkout -b feature/AmazingFeature`)
+3. 📝 **Commit** suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. 📤 **Push** para a Branch (`git push origin feature/AmazingFeature`)
+5. 🔃 Abra um **Pull Request**
+
+---
+
+## 📞 Contato
+
+<div align="center">
+
+### 🤝 Vamos nos Conectar?
+
+  <a href="https://www.linkedin.com/in/rogerdeamorim/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  &nbsp;&nbsp;&nbsp;
+  
   <a href="https://github.com/rogeramorim7" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-</p>
+  
+  <a href="https://www.instagram.com/rogerdeamorim_/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+
+**Roger Amorim** - Apenas um estudante curioso
+
+</div>
+
+---
+
+<div align="center">
+  
+  ### 🌟 Gostou do projeto?
+  
+  Se este projeto foi útil para você, considere deixar uma ⭐!
+  
+  <a href="https://github.com/rogeramorim7/calculadora-impostos-br-streamlit">
+    <img src="https://img.shields.io/badge/⭐-Deixe%20uma%20Estrela-yellow?style=for-the-badge" alt="Star">
+  </a>
+  
+  <a href="https://github.com/rogeramorim7/calculadora-impostos-br-streamlit/fork">
+    <img src="https://img.shields.io/badge/🍴-Fork%20o%20Projeto-orange?style=for-the-badge" alt="Fork">
+  </a>
+  
+  ---
+  
+  <sub>Feito por <a href="https://github.com/rogeramorim7">Roger Amorim</a></sub>
+  
+  <sub>Este projeto representa o ponto final de um esforço que uniu lógica de negócios (fiscal) e desenvolvimento moderno em Python com Streamlit.</sub>
+  
+</div>
