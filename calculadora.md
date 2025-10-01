@@ -62,12 +62,12 @@ streamlit run app.py
 
 O aplicativo será aberto automaticamente no seu navegador padrão, no endereço: http://localhost:8501.
 
-⚠️ Isenção de Responsabilidade (Disclaimer)
+⚠️ Isenção de Responsabilidade (Disclaimer):
 Os cálculos neste projeto são simulações simplificadas e didáticas, criadas exclusivamente para fins de demonstração de portfólio.
 Eles não consideram o Fator R (Simples Nacional), adicional de IRPJ, diferenças estaduais (ICMS) ou municipais (ISS), e outras particularidades fiscais.
 Este projeto não deve ser usado como base para tomada de decisão fiscal ou contábil real. Consulte sempre um contador profissional para cálculos precisos.
 
-🤝 Conclusão e Convite
+🤝 Conclusão e Convite:
 Este projeto representa o ponto final de um esforço que uniu lógica de negócios (fiscal) e desenvolvimento moderno em Python com Streamlit.
 
 Se você gostou da iniciativa, sinta-se à vontade para deixar uma estrela (star) no repositório. O feedback, sugestões de melhoria ou oportunidades de colaboração são sempre muito bem-vindos!
