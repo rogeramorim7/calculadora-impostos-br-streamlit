@@ -28,7 +28,7 @@
 </p>
 
 <h4 align="center">
-  🚀 Aplicação Finalizada ✅
+  Aplicação Finalizada ✅
 </h4>
 
 ---
@@ -37,48 +37,48 @@
 
 Este projeto é uma **Calculadora de Impostos interativa** desenvolvida em Python com Streamlit, destinada a simular de forma simplificada a carga tributária em três dos principais regimes fiscais brasileiros: **Simples Nacional**, **Lucro Presumido** e **Lucro Real**.
 
-### 🎯 Objetivo Principal
+###  Objetivo Principal
 Servir como peça de **portfólio profissional**, demonstrando proficiência em:
 
-- **🌐 Desenvolvimento Web Rápido**: Utilizando o Streamlit para criar uma interface de usuário funcional
-- **🐍 Modularização e Boas Práticas Python**: Uso de funções, tipagem de dados (type hinting) e separação clara da lógica (`calculadora_impostos.py`) da interface (`app.py`)
-- **📊 Modelagem de Lógica de Negócio (Fiscal)**: Codificando as regras simplificadas de cálculo baseadas nas legislações vigentes
+- ** Desenvolvimento Web Rápido**: Utilizando o Streamlit para criar uma interface de usuário funcional
+- ** Modularização e Boas Práticas Python**: Uso de funções, tipagem de dados (type hinting) e separação clara da lógica (`calculadora_impostos.py`) da interface (`app.py`)
+- ** Modelagem de Lógica de Negócio (Fiscal)**: Codificando as regras simplificadas de cálculo baseadas nas legislações vigentes
 
 ---
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
-- [x] 🏢 **Cálculo Simples Nacional**
+- [x]  **Cálculo Simples Nacional**
   - Faixas de faturamento automáticas
   - Cálculo baseado no faturamento anual
   - Resultado: Imposto mensal estimado
 
-- [x] 📊 **Cálculo Lucro Presumido** 
+- [x]  **Cálculo Lucro Presumido** 
   - Diferentes tipos de atividade
   - Base: Faturamento trimestral
   - Resultado: Imposto trimestral estimado
 
-- [x] 📈 **Cálculo Lucro Real**
+- [x]  **Cálculo Lucro Real**
   - Receitas totais e despesas dedutíveis
   - Cálculo do lucro real apurado
   - Resultado: Imposto total estimado
 
-- [x] 🎯 **Interface Intuitiva**
+- [x]  **Interface Intuitiva**
   - Design responsivo e moderno
   - Validação em tempo real
   - Resultados instantâneos
 
-### 📊 Resumo dos Regimes Tributários
+###  Resumo dos Regimes Tributários
 
 | Regime Fiscal | Base de Cálculo | Saída Estimada | Status |
 |:---:|:---:|:---:|:---:|
-| 🏢 **Simples Nacional** | Faturamento Anual | Imposto Mensal | ✅ Implementado |
-| 📊 **Lucro Presumido** | Faturamento Trimestral + Tipo de Atividade | Imposto Trimestral | ✅ Implementado |
-| 📈 **Lucro Real** | Receita Total + Despesas Dedutíveis | Imposto Total | ✅ Implementado |
+|  **Simples Nacional** | Faturamento Anual | Imposto Mensal | ✅ Implementado |
+|  **Lucro Presumido** | Faturamento Trimestral + Tipo de Atividade | Imposto Trimestral | ✅ Implementado |
+|  **Lucro Real** | Receita Total + Despesas Dedutíveis | Imposto Total | ✅ Implementado |
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 <table>
   <tr>
@@ -113,7 +113,7 @@ Certifique-se de ter o **Python 3.8+** instalado em sua máquina.
 
 ### 🔧 Passo a Passo
 
-#### 1. 📥 Clonar o Repositório
+#### 1.  Clonar o Repositório
 
 ```bash
 # Clone este repositório
@@ -123,7 +123,7 @@ git clone https://github.com/rogeramorim7/calculadora-impostos-br-streamlit.git
 cd calculadora-impostos-br-streamlit
 ```
 
-#### 2. 🐍 Configurar o Ambiente Virtual
+#### 2.  Configurar o Ambiente Virtual
 
 ```bash
 # Crie o ambiente virtual
@@ -137,14 +137,14 @@ source venv/bin/activate
 .\venv\Scripts\activate
 ```
 
-#### 3. 📦 Instalar as Dependências
+#### 3.  Instalar as Dependências
 
 ```bash
 # Instale as dependências
 pip install -r requirements.txt
 ```
 
-#### 4. 🚀 Executar a Aplicação
+#### 4.  Executar a Aplicação
 
 ```bash
 # Execute o aplicativo
@@ -155,7 +155,7 @@ O aplicativo será aberto automaticamente no seu navegador em: **http://localhos
 
 ---
 
-## 🛡️ Isenção de Responsabilidade
+##  Isenção de Responsabilidade
 
 <div align="center">
 
@@ -176,7 +176,7 @@ O aplicativo será aberto automaticamente no seu navegador em: **http://localhos
 
 ---
 
-## 🗺️ Roadmap do Projeto
+##  Roadmap do Projeto
 
 ```mermaid
 graph TD
@@ -198,15 +198,15 @@ graph TD
 
 ---
 
-## 🤝 Contribuindo
+##  Contribuindo
 
 Contribuições são sempre bem-vindas! Se você tem sugestões para melhorar este projeto:
 
-1. 🍴 Faça um **Fork** do projeto
-2. 🌟 Crie uma **Branch** para sua feature (`git checkout -b feature/AmazingFeature`)
-3. 📝 **Commit** suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. 📤 **Push** para a Branch (`git push origin feature/AmazingFeature`)
-5. 🔃 Abra um **Pull Request**
+1.  Faça um **Fork** do projeto
+2.  Crie uma **Branch** para sua feature (`git checkout -b feature/AmazingFeature`)
+3.  **Commit** suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4.  **Push** para a Branch (`git push origin feature/AmazingFeature`)
+5.  Abra um **Pull Request**
 
 ---
 
